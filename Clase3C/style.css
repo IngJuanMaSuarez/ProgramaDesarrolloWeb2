@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-user-choice input {
+    display: none;
+}
+
+input:checked + label{
+    background-color: aqua;
+}
+
+.container-user-choice label {
+    margin: 10px
+}
+
+.container-user-choice img {
+    width: 100px;
+    background-color: antiquewhite;
+}
+
+.container-user-choice img:hover, .container-user-choice label:hover{
+    background-color: aqua;
+}
