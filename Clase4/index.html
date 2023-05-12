@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Generador de Contraseñas</h1>
+
+    <div class="main-container">
+
+        <label for="password_length">Ingrese la cantidad de caracteres</label>
+        <input type="number" name="" id="password_length">
+
+        <label for="password_complexity">Seleccione la complejidad de la contraseña</label>
+        <select name="" id="password_complexity">
+            <option value="low">Baja</option>
+            <option value="medium">Media</option>
+            <option value="high">Alta</option>
+        </select>
+
+        <button onclick=generatePassword() id="generate_password">Generar Contraseña</button>
+
+        <input type="text" name="" id="password">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
