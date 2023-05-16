@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#listaPokemon {
+    background-color: peachpuff;
+    width: 100;
+    height: 300px;
+}
+
+img {
+    width: 50px;
+}
